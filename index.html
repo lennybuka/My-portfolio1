@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lenemiria Ben | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="fade-in-section">
+    <h1 class="highlight">Lenemiria B Benson</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="fade-in-section">
+      <h2>Welcome</h2>
+      <p>Welcome to my personal portfolio website!</p>
+    </section>
+
+    <section id="about" class="fade-in-section">
+      <h2>About Me</h2>
+      <p>Hello! I’m Lenemiria Benson, a front-end developer dedicated to building outstanding websites. With expertise in HTML, CSS, JavaScript, and Python, I create digital experiences that not only capture hearts but also solve problems. Explore my portfolio and discover how I can transform your web presence.</p>
+    </section>
+
+    <section id="education" class="fade-in-section">
+      <h2>Education</h2>
+      <p>Diploma in Information Communication Technology<br>St Johns Training College</p>
+    </section>
+
+    <section id="projects" class="fade-in-section">
+      <h2>My Projects</h2>
+      <p>Explore a selection of my best work, showcasing my skills in HTML, CSS, JavaScript, and Python.</p>
+      <div class="project">
+        <h3>To-Do App</h3>
+        <p>A simple to-do list built with HTML, CSS, and JS.</p>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>Fetches weather info using OpenWeatherMap API.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A portfolio website to showcase my work and skills as a developer, emphasizing design and functionality.</p>
+      </div>
+      <div class="project">
+        <h3>Blog Website</h3>
+        <p>A blog where I share insights and experiences for professionals, learners, and tech enthusiasts.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in-section">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+      <div id="statusMsg"></div>
+    </section>
+  </main>
+
+  <footer class="fade-in-section">
+    <p>&copy; 2025 Lenemiria Ben. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
